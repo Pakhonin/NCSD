@@ -1,1 +1,14 @@
-
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GET-запрос без JavaScript</title>
+</head>
+<body>
+    <form action="https://nordcomp.bitrix24.ru/rest/1/el1p2l122o90k9uk/crm.item.get.json?entityTypeId=144&id=136" method="get">
+        <input type="text" name="query" placeholder="Введите запрос">
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>
+```
